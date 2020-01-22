@@ -1,0 +1,16 @@
+#服务端口
+server:
+  port: 9001
+#spring配置
+spring:
+  application:
+    name: ihrm_company
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://175.24.111.52:3306/ihrm?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: centos
+  jpa:
+    database: MySql
+    show-sql: true
+    open-in-view: true
