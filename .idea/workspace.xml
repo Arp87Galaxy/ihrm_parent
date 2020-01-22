@@ -2,53 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="853412b9-b0e9-4214-8ae7-220d3032dfc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common/ihrm_common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/entity/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/entity/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/entity/ResultCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/service/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/utils/IdWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common/target/classes/com/ihrm/common/controller/BaseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common/target/classes/com/ihrm/common/entity/PageResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common/target/classes/com/ihrm/common/entity/Result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common/target/classes/com/ihrm/common/entity/ResultCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common/target/classes/com/ihrm/common/service/BaseService$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common/target/classes/com/ihrm/common/service/BaseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common/target/classes/com/ihrm/common/utils/IdWorker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common_model/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/company/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/company/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/company/response/DeptListResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common_model/target/classes/com/ihrm/domain/company/Company.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common_model/target/classes/com/ihrm/domain/company/Department.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common_model/target/classes/com/ihrm/domain/company/response/DeptListResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_company/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/CompanyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/controller/CompanyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/controller/DepartmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/dao/CompanyDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/dao/DepartmentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/service/CompanyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/service/DepartmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_company/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_company/src/test/java/com/ihrm/company/CompanyDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_company/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_company/target/classes/com/ihrm/company/CompanyApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_company/target/classes/com/ihrm/company/controller/CompanyController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_company/target/classes/com/ihrm/company/controller/DepartmentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_company/target/classes/com/ihrm/company/dao/CompanyDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_company/target/classes/com/ihrm/company/dao/DepartmentDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_company/target/classes/com/ihrm/company/service/CompanyService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_company/target/classes/com/ihrm/company/service/DepartmentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_company/target/test-classes/com/ihrm/company/CompanyDaoTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_parent.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -92,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/controller/DepartmentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="71" column="40" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
+            <state relative-caret-position="220">
+              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -190,19 +144,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ihrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ihrm_parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,7 +156,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579662650897" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579662661328" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -293,7 +237,8 @@
       <workItem from="1579521120714" duration="4842000" />
       <workItem from="1579578993151" duration="1446000" />
       <workItem from="1579606409481" duration="4932000" />
-      <workItem from="1579662346513" duration="235000" />
+      <workItem from="1579662346513" duration="641000" />
+      <workItem from="1579663003465" duration="2548000" />
     </task>
     <servers />
   </component>
@@ -330,12 +275,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48332000" />
+    <option name="totallyTimeSpent" value="51262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16791044" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16950959" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -345,13 +290,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27974278" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27896994" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32939914" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -748,8 +693,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/controller/DepartmentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="71" column="40" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
+        <state relative-caret-position="220">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
