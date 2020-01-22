@@ -13,7 +13,7 @@ import javax.persistence.Entity;
  * company服务启动类
  */
 //配置springboot的包扫描
-@SpringBootApplication(scanBasePackages = "com.ihrm.company")
+@SpringBootApplication(scanBasePackages = "com.ihrm")
 //配置jpa的实体类注解扫描
 @EntityScan(value = "com.ihrm.domain.company")
 public class CompanyApplication {
