@@ -28,10 +28,11 @@ public class DepartmentController extends BaseController {
     @PostMapping(value = "/department")
     public Result save(@RequestBody Department department){
         //设置企业id为固定值1保企业数据证隔离性，以后会解决固定id的问题
-        String companyid = "1";
-        department.setCompanyId(companyid);
+
+        department.setCompanyId(companyId);
         java.sql.Date date = new java.sql.Date(new java.util.Date().getTime());
         department.setCreateTime(date);
+        department.setPid(department.getPid());
         //调用service保存结果
         departmentService.save(department);
         //构造返回结果
