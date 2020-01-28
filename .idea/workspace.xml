@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="853412b9-b0e9-4214-8ae7-220d3032dfc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/PermissionApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/PermissionMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/PermissionPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/dao/RoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/company/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/company/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_common_model/target/classes/com/ihrm/domain/company/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/target/classes/com/ihrm/domain/company/Department.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/controller/DepartmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_company/target/classes/com/ihrm/company/CompanyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_company/target/classes/com/ihrm/company/CompanyApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_company/target/classes/com/ihrm/company/controller/DepartmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_company/target/classes/com/ihrm/company/controller/DepartmentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/User.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,11 +55,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ihrm_common_model/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+            <state relative-caret-position="462">
+              <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/Permission.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="571">
+              <caret line="47" selection-start-line="47" selection-end-line="51" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/PermissionApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="90" column="25" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -171,6 +181,7 @@
         <option value="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/service/RoleService.java" />
         <option value="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java" />
         <option value="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/User.java" />
       </list>
     </option>
   </component>
@@ -212,6 +223,17 @@
             <path>
               <item name="ihrm_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="ihrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ihrm_common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ihrm_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ihrm_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ihrm_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ihrm_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ihrm_parent" type="462c0819:PsiDirectoryNode" />
               <item name="ihrm_common_model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -243,16 +265,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ihrm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ihrm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ihrm_common_model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ihrm_parent" type="b2602c69:ProjectViewProjectNode" />
@@ -397,7 +409,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579795357593" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580183247285" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -426,7 +438,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SystemApplication">
+  <component name="RunManager" selected="Spring Boot.CompanyApplication">
     <configuration name="CompanyDaoTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ihrm_company" />
       <extension name="coverage">
@@ -471,8 +483,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SystemApplication" />
         <item itemvalue="Spring Boot.CompanyApplication" />
+        <item itemvalue="Spring Boot.SystemApplication" />
         <item itemvalue="JUnit.CompanyDaoTest.test" />
       </list>
     </recent_temporary>
@@ -507,7 +519,8 @@
       <workItem from="1579919416475" duration="96000" />
       <workItem from="1580060668846" duration="619000" />
       <workItem from="1580093475494" duration="2541000" />
-      <workItem from="1580129830459" duration="612000" />
+      <workItem from="1580129830459" duration="1732000" />
+      <workItem from="1580182930486" duration="244000" />
     </task>
     <task id="LOCAL-00001" summary="添加系统微服务">
       <created>1579670666165</created>
@@ -551,7 +564,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579671472618</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="搭建添加user和role">
+      <created>1580137425893</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580137425893</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -587,13 +607,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81653000" />
+    <option name="totallyTimeSpent" value="83017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18443497" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18656716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -603,7 +623,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16523606" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26502147" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.61083746" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -670,7 +690,8 @@
     <MESSAGE value="添加系统微服务" />
     <MESSAGE value="添加系统微服务配置文件" />
     <MESSAGE value="搭建系统微服务" />
-    <option name="LAST_COMMIT_MESSAGE" value="搭建系统微服务" />
+    <MESSAGE value="搭建添加user和role" />
+    <option name="LAST_COMMIT_MESSAGE" value="搭建添加user和role" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -733,13 +754,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://F:/reposi/org/springframework/data/spring-data-commons/2.0.10.RELEASE/spring-data-commons-2.0.10.RELEASE.jar!/org/springframework/data/repository/PagingAndSortingRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://F:/reposi/org/springframework/data/spring-data-commons/2.0.10.RELEASE/spring-data-commons-2.0.10.RELEASE.jar!/org/springframework/data/repository/NoRepositoryBean.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -968,13 +982,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/Permission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/SystemApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1093,13 +1100,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
@@ -1159,8 +1159,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ihrm_common_model/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+        <state relative-caret-position="462">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="47" selection-start-line="47" selection-end-line="51" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/PermissionApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="90" column="25" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
         </state>
       </provider>
     </entry>
