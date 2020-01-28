@@ -5,19 +5,39 @@ import com.ihrm.common.entity.PageResult;
 import com.ihrm.common.entity.Result;
 import com.ihrm.common.entity.ResultCode;
 import com.ihrm.domain.system.Role;
+import com.ihrm.domain.system.response.RoleResult;
 import com.ihrm.system.service.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Map;
 
 @CrossOrigin
 @RestController
 @RequestMapping(value = "/sys")
-public class RoleController extends BaseController {
+public class RoleController extends BaseController{
     @Autowired
     private RoleService roleService;
+
+    /**
+     * 分配权限
+     * 1.从前端传递的map获取被分配用户id : id
+     * 2.从前端传递的map获取权限id列表 : permIds
+     * 3.调用service完成角色分配
+     */
+    @PostMapping(value = "/role/assignPerm")
+    public Result save(@RequestBody Map<String,Object> map){
+//1
+        String roleId= (String)map.get("id");
+//2
+        List<String> permIds = (List<String >)map.get("permIds");
+//3
+        roleService.assignPerms(roleId,permIds);
+        return new Result(ResultCode.SUCCESS);
+    }
+
     /**
      *保存role接口
      */
@@ -31,6 +51,11 @@ public class RoleController extends BaseController {
         roleService.save(role);
         //构造返回结果
         return new Result(ResultCode.SUCCESS);
+    }
+    @RequestMapping(value="/role/list" ,method=RequestMethod.GET)
+    public Result findAll() throws Exception {
+        List<Role> roleList = roleService.findAll(companyId);
+        return new Result(ResultCode.SUCCESS,roleList);
     }
     /**
      *根据企业id查询role列表
@@ -48,18 +73,19 @@ public class RoleController extends BaseController {
     @GetMapping(value = "/role/{id}")
     public Result findById(@PathVariable(value = "id")String id){
         Role role = roleService.findById(id);
-        return new Result(ResultCode.SUCCESS,role);
+        RoleResult roleResult = new RoleResult(role);
+        return new Result(ResultCode.SUCCESS,roleResult);
 
     }
 
 
     /**
-     * 根据部门id修改部门信息
+     * 根据部门id修改角色信息
      */
 
     @PutMapping(value = "/role/{id}")
     public Result update(@PathVariable(value = "id")String id,@RequestBody Role role){
-        //1.设置修改的部门id
+        //1.设置修改的角色id
         role.setId(id);
         //2.调用service跟新
         roleService.update(role);
@@ -67,7 +93,7 @@ public class RoleController extends BaseController {
     }
 
     /**
-     * 根据部门id’删除部门
+     * 根据部门id’删除角色
      */
     @DeleteMapping(value = "/role/{id}")
     public Result delete(@PathVariable(value = "id")String id){

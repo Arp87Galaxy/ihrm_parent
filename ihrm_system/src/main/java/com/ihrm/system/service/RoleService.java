@@ -2,7 +2,11 @@ package com.ihrm.system.service;
 
 import com.ihrm.common.service.BaseService;
 import com.ihrm.common.utils.IdWorker;
+import com.ihrm.common.utils.PermissionConstants;
+import com.ihrm.domain.system.Permission;
 import com.ihrm.domain.system.Role;
+import com.ihrm.domain.system.User;
+import com.ihrm.system.dao.PermissionDao;
 import com.ihrm.system.dao.RoleDao;
 import com.ihrm.system.dao.RoleDao;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,14 +20,14 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @Service
 public class RoleService extends BaseService {
     @Autowired
     private RoleDao roleDao;
+    @Autowired
+    private PermissionDao permissionDao;
     @Autowired
     private IdWorker idWorker;
     /**
@@ -62,10 +66,35 @@ public class RoleService extends BaseService {
 
         return roleDao.findAll(getSpec(companyId),PageRequest.of(page-1,size));
     }
+    public List<Role> findAll(String companyId){
+
+        return roleDao.findAll(getSpec(companyId));
+    }
     /**
      * 根据部门id删除用户
      */
     public void deleteById(String id){
         roleDao.deleteById(id);
+    }
+
+    /**
+     * 分配权限
+     */
+    public void assignPerms(String roleId, List<String> permIds) {
+        //1.根据id查询角色对象
+        Role role = roleDao.findById(roleId).get();
+        //2.设置角色的权限集合
+        Set<Permission> permSet = new HashSet<Permission>();
+        for (String permId : permIds){
+            Permission permission = permissionDao.findById(roleId).get();
+            //需要根据pid和类型查询api权限列表
+            List<Permission> apiList = permissionDao.findByTypeAndPid(PermissionConstants.PERMISSION_API, permission.getId());
+            permSet.addAll(apiList);//自动赋予api权限
+            permSet.add(permission);
+        }
+        //3.设置角色和权限集合的关系
+        role.setPermissions(permSet);
+        //4.更新角色对象
+        roleDao.save(role);
     }
 }

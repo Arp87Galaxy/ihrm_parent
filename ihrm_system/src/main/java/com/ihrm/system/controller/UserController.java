@@ -5,12 +5,14 @@ import com.ihrm.common.entity.PageResult;
 import com.ihrm.common.entity.Result;
 import com.ihrm.common.entity.ResultCode;
 import com.ihrm.domain.system.User;
+import com.ihrm.domain.system.response.UserResult;
 import com.ihrm.system.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
 
 
+import java.util.List;
 import java.util.Map;
 
 @CrossOrigin
@@ -19,6 +21,24 @@ import java.util.Map;
 public class UserController extends BaseController {
     @Autowired
     private UserService userService;
+
+
+    /**
+     * 分配角色
+     * 1.从前端传递的map获取被分配用户id : id
+     * 2.从前端传递的map获取角色id列表 : roleIds
+     * 3.调用service完成角色分配
+     */
+    @PutMapping(value = "/user/assignRoles")
+    public Result save(@RequestBody Map<String,Object> map){
+//1
+        String userId= (String)map.get("id");
+//2
+        List<String> roleIds = (List<String >)map.get("roleIds");
+//3
+        userService.assignRoles(userId,roleIds);
+        return new Result(ResultCode.SUCCESS);
+    }
     /**
      *保存user接口
      */
@@ -52,7 +72,8 @@ public class UserController extends BaseController {
     @GetMapping(value = "/user/{id}")
     public Result findById(@PathVariable(value = "id")String id){
         User user = userService.findById(id);
-        return new Result(ResultCode.SUCCESS,user);
+        UserResult userResult = new UserResult(user);
+        return new Result(ResultCode.SUCCESS,userResult);
 
     }
 
