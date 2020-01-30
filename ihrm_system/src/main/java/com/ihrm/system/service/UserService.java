@@ -31,6 +31,14 @@ public class UserService {
     @Autowired
     private IdWorker idWorker;
 
+
+    /**
+     * 用户登录
+     *   根据mobile查询
+     */
+    public User findByMobile(String mobile){
+        return  userDao.findByMobile(mobile);
+    }
     /**
      *保存用户
      */
@@ -39,6 +47,7 @@ public class UserService {
         user.setId(id);
         user.setPassword("123456");
         user.setEnableState(1);
+        user.setLevel("user");
         userDao.save(user);
     }
     /**

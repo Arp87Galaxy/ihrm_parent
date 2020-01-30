@@ -14,3 +14,7 @@ spring:
     database: MySql
     show-sql: true
     open-in-view: true
+jwt:
+  config:
+    ttl: 3600000
+    key: ihrm

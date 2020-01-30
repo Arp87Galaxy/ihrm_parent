@@ -86,7 +86,7 @@ public class RoleService extends BaseService {
         //2.设置角色的权限集合
         Set<Permission> permSet = new HashSet<Permission>();
         for (String permId : permIds){
-            Permission permission = permissionDao.findById(roleId).get();
+            Permission permission = permissionDao.findById(permId).get();
             //需要根据pid和类型查询api权限列表
             List<Permission> apiList = permissionDao.findByTypeAndPid(PermissionConstants.PERMISSION_API, permission.getId());
             permSet.addAll(apiList);//自动赋予api权限

@@ -180,7 +180,7 @@ public class PermissionService {
                     list.add(criteriaBuilder.equal(root.get("pid").as(String.class),(String)map.get("pid")));
                 }
                 if (!StringUtils.isEmpty(map.get("enVisible"))){
-                    list.add(criteriaBuilder.equal(root.get("enVisible").as(String.class),(String)map.get("enVisible")));
+                    list.add(criteriaBuilder.equal(root.get("enVisible").as(String.class),map.get("enVisible").toString()));
                 }
                 if (!StringUtils.isEmpty(map.get("type"))){
                     String type = (String) map.get("type");

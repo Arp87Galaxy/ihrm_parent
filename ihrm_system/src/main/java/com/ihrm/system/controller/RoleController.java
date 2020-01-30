@@ -27,12 +27,12 @@ public class RoleController extends BaseController{
      * 2.从前端传递的map获取权限id列表 : permIds
      * 3.调用service完成角色分配
      */
-    @PostMapping(value = "/role/assignPerm")
-    public Result save(@RequestBody Map<String,Object> map){
+    @PutMapping(value = "/role/assignPerm")
+    public Result assignPerm(@RequestBody Map<String,Object> map){
 //1
-        String roleId= (String)map.get("id");
+        String roleId= (String)map.get("roleId");
 //2
-        List<String> permIds = (List<String >)map.get("permIds");
+        List<String> permIds = (List<String >)map.get("ids");
 //3
         roleService.assignPerms(roleId,permIds);
         return new Result(ResultCode.SUCCESS);
